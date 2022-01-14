@@ -7,8 +7,10 @@ int main(void) {
     int a, b;
     int result;
 
-    scanf("%d", &a);
-    scanf("%d", &b);
+    printf("첫 번째 정수를 입력해 주세요 : ");
+    scanf_s("%d", &a);
+    printf("두 번째 정수를 입력해 주세요 : ");
+    scanf_s("%d", &b);
 
     result = a + b;
 
