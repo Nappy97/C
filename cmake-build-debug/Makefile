@@ -493,6 +493,19 @@ first/fast:
 .PHONY : 0124-6/fast
 
 #=============================================================================
+# Target rules for targets named 0126-6
+
+# Build rule for target.
+0126-6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126-6
+.PHONY : 0126-6
+
+# fast build rule for target.
+0126-6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-6.dir\build.make CMakeFiles/0126-6.dir/build
+.PHONY : 0126-6/fast
+
+#=============================================================================
 # Target rules for targets named 0124-8
 
 # Build rule for target.
@@ -504,6 +517,84 @@ first/fast:
 0124-8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0124-8.dir\build.make CMakeFiles/0124-8.dir/build
 .PHONY : 0124-8/fast
+
+#=============================================================================
+# Target rules for targets named 0126
+
+# Build rule for target.
+0126: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126
+.PHONY : 0126
+
+# fast build rule for target.
+0126/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126.dir\build.make CMakeFiles/0126.dir/build
+.PHONY : 0126/fast
+
+#=============================================================================
+# Target rules for targets named 0126-1
+
+# Build rule for target.
+0126-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126-1
+.PHONY : 0126-1
+
+# fast build rule for target.
+0126-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-1.dir\build.make CMakeFiles/0126-1.dir/build
+.PHONY : 0126-1/fast
+
+#=============================================================================
+# Target rules for targets named 0126-2
+
+# Build rule for target.
+0126-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126-2
+.PHONY : 0126-2
+
+# fast build rule for target.
+0126-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-2.dir\build.make CMakeFiles/0126-2.dir/build
+.PHONY : 0126-2/fast
+
+#=============================================================================
+# Target rules for targets named 0126-3
+
+# Build rule for target.
+0126-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126-3
+.PHONY : 0126-3
+
+# fast build rule for target.
+0126-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-3.dir\build.make CMakeFiles/0126-3.dir/build
+.PHONY : 0126-3/fast
+
+#=============================================================================
+# Target rules for targets named 0126-4
+
+# Build rule for target.
+0126-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126-4
+.PHONY : 0126-4
+
+# fast build rule for target.
+0126-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-4.dir\build.make CMakeFiles/0126-4.dir/build
+.PHONY : 0126-4/fast
+
+#=============================================================================
+# Target rules for targets named 0126-5
+
+# Build rule for target.
+0126-5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0126-5
+.PHONY : 0126-5
+
+# fast build rule for target.
+0126-5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-5.dir\build.make CMakeFiles/0126-5.dir/build
+.PHONY : 0126-5/fast
 
 day01/first.obj: day01/first.c.obj
 .PHONY : day01/first.obj
@@ -1225,6 +1316,174 @@ day05/0124.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0124.dir\build.make CMakeFiles/0124.dir/day05/0124.c.s
 .PHONY : day05/0124.c.s
 
+day06/0126-1.obj: day06/0126-1.c.obj
+.PHONY : day06/0126-1.obj
+
+# target to build an object file
+day06/0126-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-1.dir\build.make CMakeFiles/0126-1.dir/day06/0126-1.c.obj
+.PHONY : day06/0126-1.c.obj
+
+day06/0126-1.i: day06/0126-1.c.i
+.PHONY : day06/0126-1.i
+
+# target to preprocess a source file
+day06/0126-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-1.dir\build.make CMakeFiles/0126-1.dir/day06/0126-1.c.i
+.PHONY : day06/0126-1.c.i
+
+day06/0126-1.s: day06/0126-1.c.s
+.PHONY : day06/0126-1.s
+
+# target to generate assembly for a file
+day06/0126-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-1.dir\build.make CMakeFiles/0126-1.dir/day06/0126-1.c.s
+.PHONY : day06/0126-1.c.s
+
+day06/0126-2.obj: day06/0126-2.c.obj
+.PHONY : day06/0126-2.obj
+
+# target to build an object file
+day06/0126-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-2.dir\build.make CMakeFiles/0126-2.dir/day06/0126-2.c.obj
+.PHONY : day06/0126-2.c.obj
+
+day06/0126-2.i: day06/0126-2.c.i
+.PHONY : day06/0126-2.i
+
+# target to preprocess a source file
+day06/0126-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-2.dir\build.make CMakeFiles/0126-2.dir/day06/0126-2.c.i
+.PHONY : day06/0126-2.c.i
+
+day06/0126-2.s: day06/0126-2.c.s
+.PHONY : day06/0126-2.s
+
+# target to generate assembly for a file
+day06/0126-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-2.dir\build.make CMakeFiles/0126-2.dir/day06/0126-2.c.s
+.PHONY : day06/0126-2.c.s
+
+day06/0126-3.obj: day06/0126-3.c.obj
+.PHONY : day06/0126-3.obj
+
+# target to build an object file
+day06/0126-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-3.dir\build.make CMakeFiles/0126-3.dir/day06/0126-3.c.obj
+.PHONY : day06/0126-3.c.obj
+
+day06/0126-3.i: day06/0126-3.c.i
+.PHONY : day06/0126-3.i
+
+# target to preprocess a source file
+day06/0126-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-3.dir\build.make CMakeFiles/0126-3.dir/day06/0126-3.c.i
+.PHONY : day06/0126-3.c.i
+
+day06/0126-3.s: day06/0126-3.c.s
+.PHONY : day06/0126-3.s
+
+# target to generate assembly for a file
+day06/0126-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-3.dir\build.make CMakeFiles/0126-3.dir/day06/0126-3.c.s
+.PHONY : day06/0126-3.c.s
+
+day06/0126-4.obj: day06/0126-4.c.obj
+.PHONY : day06/0126-4.obj
+
+# target to build an object file
+day06/0126-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-4.dir\build.make CMakeFiles/0126-4.dir/day06/0126-4.c.obj
+.PHONY : day06/0126-4.c.obj
+
+day06/0126-4.i: day06/0126-4.c.i
+.PHONY : day06/0126-4.i
+
+# target to preprocess a source file
+day06/0126-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-4.dir\build.make CMakeFiles/0126-4.dir/day06/0126-4.c.i
+.PHONY : day06/0126-4.c.i
+
+day06/0126-4.s: day06/0126-4.c.s
+.PHONY : day06/0126-4.s
+
+# target to generate assembly for a file
+day06/0126-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-4.dir\build.make CMakeFiles/0126-4.dir/day06/0126-4.c.s
+.PHONY : day06/0126-4.c.s
+
+day06/0126-5.obj: day06/0126-5.c.obj
+.PHONY : day06/0126-5.obj
+
+# target to build an object file
+day06/0126-5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-5.dir\build.make CMakeFiles/0126-5.dir/day06/0126-5.c.obj
+.PHONY : day06/0126-5.c.obj
+
+day06/0126-5.i: day06/0126-5.c.i
+.PHONY : day06/0126-5.i
+
+# target to preprocess a source file
+day06/0126-5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-5.dir\build.make CMakeFiles/0126-5.dir/day06/0126-5.c.i
+.PHONY : day06/0126-5.c.i
+
+day06/0126-5.s: day06/0126-5.c.s
+.PHONY : day06/0126-5.s
+
+# target to generate assembly for a file
+day06/0126-5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-5.dir\build.make CMakeFiles/0126-5.dir/day06/0126-5.c.s
+.PHONY : day06/0126-5.c.s
+
+day06/0126-6.obj: day06/0126-6.c.obj
+.PHONY : day06/0126-6.obj
+
+# target to build an object file
+day06/0126-6.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-6.dir\build.make CMakeFiles/0126-6.dir/day06/0126-6.c.obj
+.PHONY : day06/0126-6.c.obj
+
+day06/0126-6.i: day06/0126-6.c.i
+.PHONY : day06/0126-6.i
+
+# target to preprocess a source file
+day06/0126-6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-6.dir\build.make CMakeFiles/0126-6.dir/day06/0126-6.c.i
+.PHONY : day06/0126-6.c.i
+
+day06/0126-6.s: day06/0126-6.c.s
+.PHONY : day06/0126-6.s
+
+# target to generate assembly for a file
+day06/0126-6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126-6.dir\build.make CMakeFiles/0126-6.dir/day06/0126-6.c.s
+.PHONY : day06/0126-6.c.s
+
+day06/0126.obj: day06/0126.c.obj
+.PHONY : day06/0126.obj
+
+# target to build an object file
+day06/0126.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126.dir\build.make CMakeFiles/0126.dir/day06/0126.c.obj
+.PHONY : day06/0126.c.obj
+
+day06/0126.i: day06/0126.c.i
+.PHONY : day06/0126.i
+
+# target to preprocess a source file
+day06/0126.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126.dir\build.make CMakeFiles/0126.dir/day06/0126.c.i
+.PHONY : day06/0126.c.i
+
+day06/0126.s: day06/0126.c.s
+.PHONY : day06/0126.s
+
+# target to generate assembly for a file
+day06/0126.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0126.dir\build.make CMakeFiles/0126.dir/day06/0126.c.s
+.PHONY : day06/0126.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1262,6 +1521,13 @@ help:
 	@echo ... 0124-6
 	@echo ... 0124-7
 	@echo ... 0124-8
+	@echo ... 0126
+	@echo ... 0126-1
+	@echo ... 0126-2
+	@echo ... 0126-3
+	@echo ... 0126-4
+	@echo ... 0126-5
+	@echo ... 0126-6
 	@echo ... first
 	@echo ... day01/first.obj
 	@echo ... day01/first.i
@@ -1353,6 +1619,27 @@ help:
 	@echo ... day05/0124.obj
 	@echo ... day05/0124.i
 	@echo ... day05/0124.s
+	@echo ... day06/0126-1.obj
+	@echo ... day06/0126-1.i
+	@echo ... day06/0126-1.s
+	@echo ... day06/0126-2.obj
+	@echo ... day06/0126-2.i
+	@echo ... day06/0126-2.s
+	@echo ... day06/0126-3.obj
+	@echo ... day06/0126-3.i
+	@echo ... day06/0126-3.s
+	@echo ... day06/0126-4.obj
+	@echo ... day06/0126-4.i
+	@echo ... day06/0126-4.s
+	@echo ... day06/0126-5.obj
+	@echo ... day06/0126-5.i
+	@echo ... day06/0126-5.s
+	@echo ... day06/0126-6.obj
+	@echo ... day06/0126-6.i
+	@echo ... day06/0126-6.s
+	@echo ... day06/0126.obj
+	@echo ... day06/0126.i
+	@echo ... day06/0126.s
 .PHONY : help
 
 
