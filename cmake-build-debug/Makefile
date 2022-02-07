@@ -142,6 +142,19 @@ first/fast:
 .PHONY : first/fast
 
 #=============================================================================
+# Target rules for targets named 0207-4
+
+# Build rule for target.
+0207-4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0207-4
+.PHONY : 0207-4
+
+# fast build rule for target.
+0207-4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-4.dir\build.make CMakeFiles/0207-4.dir/build
+.PHONY : 0207-4/fast
+
+#=============================================================================
 # Target rules for targets named 0114
 
 # Build rule for target.
@@ -699,6 +712,58 @@ first/fast:
 0128-8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0128-8.dir\build.make CMakeFiles/0128-8.dir/build
 .PHONY : 0128-8/fast
+
+#=============================================================================
+# Target rules for targets named 0207-3
+
+# Build rule for target.
+0207-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0207-3
+.PHONY : 0207-3
+
+# fast build rule for target.
+0207-3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-3.dir\build.make CMakeFiles/0207-3.dir/build
+.PHONY : 0207-3/fast
+
+#=============================================================================
+# Target rules for targets named 0207
+
+# Build rule for target.
+0207: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0207
+.PHONY : 0207
+
+# fast build rule for target.
+0207/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207.dir\build.make CMakeFiles/0207.dir/build
+.PHONY : 0207/fast
+
+#=============================================================================
+# Target rules for targets named 0207-1
+
+# Build rule for target.
+0207-1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0207-1
+.PHONY : 0207-1
+
+# fast build rule for target.
+0207-1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-1.dir\build.make CMakeFiles/0207-1.dir/build
+.PHONY : 0207-1/fast
+
+#=============================================================================
+# Target rules for targets named 0207-2
+
+# Build rule for target.
+0207-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0207-2
+.PHONY : 0207-2
+
+# fast build rule for target.
+0207-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-2.dir\build.make CMakeFiles/0207-2.dir/build
+.PHONY : 0207-2/fast
 
 day01/first.obj: day01/first.c.obj
 .PHONY : day01/first.obj
@@ -1780,6 +1845,126 @@ day07/0128.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0128.dir\build.make CMakeFiles/0128.dir/day07/0128.c.s
 .PHONY : day07/0128.c.s
 
+day08/0207-1.obj: day08/0207-1.c.obj
+.PHONY : day08/0207-1.obj
+
+# target to build an object file
+day08/0207-1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-1.dir\build.make CMakeFiles/0207-1.dir/day08/0207-1.c.obj
+.PHONY : day08/0207-1.c.obj
+
+day08/0207-1.i: day08/0207-1.c.i
+.PHONY : day08/0207-1.i
+
+# target to preprocess a source file
+day08/0207-1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-1.dir\build.make CMakeFiles/0207-1.dir/day08/0207-1.c.i
+.PHONY : day08/0207-1.c.i
+
+day08/0207-1.s: day08/0207-1.c.s
+.PHONY : day08/0207-1.s
+
+# target to generate assembly for a file
+day08/0207-1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-1.dir\build.make CMakeFiles/0207-1.dir/day08/0207-1.c.s
+.PHONY : day08/0207-1.c.s
+
+day08/0207-2.obj: day08/0207-2.c.obj
+.PHONY : day08/0207-2.obj
+
+# target to build an object file
+day08/0207-2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-2.dir\build.make CMakeFiles/0207-2.dir/day08/0207-2.c.obj
+.PHONY : day08/0207-2.c.obj
+
+day08/0207-2.i: day08/0207-2.c.i
+.PHONY : day08/0207-2.i
+
+# target to preprocess a source file
+day08/0207-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-2.dir\build.make CMakeFiles/0207-2.dir/day08/0207-2.c.i
+.PHONY : day08/0207-2.c.i
+
+day08/0207-2.s: day08/0207-2.c.s
+.PHONY : day08/0207-2.s
+
+# target to generate assembly for a file
+day08/0207-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-2.dir\build.make CMakeFiles/0207-2.dir/day08/0207-2.c.s
+.PHONY : day08/0207-2.c.s
+
+day08/0207-3.obj: day08/0207-3.c.obj
+.PHONY : day08/0207-3.obj
+
+# target to build an object file
+day08/0207-3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-3.dir\build.make CMakeFiles/0207-3.dir/day08/0207-3.c.obj
+.PHONY : day08/0207-3.c.obj
+
+day08/0207-3.i: day08/0207-3.c.i
+.PHONY : day08/0207-3.i
+
+# target to preprocess a source file
+day08/0207-3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-3.dir\build.make CMakeFiles/0207-3.dir/day08/0207-3.c.i
+.PHONY : day08/0207-3.c.i
+
+day08/0207-3.s: day08/0207-3.c.s
+.PHONY : day08/0207-3.s
+
+# target to generate assembly for a file
+day08/0207-3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-3.dir\build.make CMakeFiles/0207-3.dir/day08/0207-3.c.s
+.PHONY : day08/0207-3.c.s
+
+day08/0207-4.obj: day08/0207-4.c.obj
+.PHONY : day08/0207-4.obj
+
+# target to build an object file
+day08/0207-4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-4.dir\build.make CMakeFiles/0207-4.dir/day08/0207-4.c.obj
+.PHONY : day08/0207-4.c.obj
+
+day08/0207-4.i: day08/0207-4.c.i
+.PHONY : day08/0207-4.i
+
+# target to preprocess a source file
+day08/0207-4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-4.dir\build.make CMakeFiles/0207-4.dir/day08/0207-4.c.i
+.PHONY : day08/0207-4.c.i
+
+day08/0207-4.s: day08/0207-4.c.s
+.PHONY : day08/0207-4.s
+
+# target to generate assembly for a file
+day08/0207-4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207-4.dir\build.make CMakeFiles/0207-4.dir/day08/0207-4.c.s
+.PHONY : day08/0207-4.c.s
+
+day08/0207.obj: day08/0207.c.obj
+.PHONY : day08/0207.obj
+
+# target to build an object file
+day08/0207.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207.dir\build.make CMakeFiles/0207.dir/day08/0207.c.obj
+.PHONY : day08/0207.c.obj
+
+day08/0207.i: day08/0207.c.i
+.PHONY : day08/0207.i
+
+# target to preprocess a source file
+day08/0207.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207.dir\build.make CMakeFiles/0207.dir/day08/0207.c.i
+.PHONY : day08/0207.c.i
+
+day08/0207.s: day08/0207.c.s
+.PHONY : day08/0207.s
+
+# target to generate assembly for a file
+day08/0207.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0207.dir\build.make CMakeFiles/0207.dir/day08/0207.c.s
+.PHONY : day08/0207.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1832,6 +2017,11 @@ help:
 	@echo ... 0128-6
 	@echo ... 0128-7
 	@echo ... 0128-8
+	@echo ... 0207
+	@echo ... 0207-1
+	@echo ... 0207-2
+	@echo ... 0207-3
+	@echo ... 0207-4
 	@echo ... first
 	@echo ... day01/first.obj
 	@echo ... day01/first.i
@@ -1968,6 +2158,21 @@ help:
 	@echo ... day07/0128.obj
 	@echo ... day07/0128.i
 	@echo ... day07/0128.s
+	@echo ... day08/0207-1.obj
+	@echo ... day08/0207-1.i
+	@echo ... day08/0207-1.s
+	@echo ... day08/0207-2.obj
+	@echo ... day08/0207-2.i
+	@echo ... day08/0207-2.s
+	@echo ... day08/0207-3.obj
+	@echo ... day08/0207-3.i
+	@echo ... day08/0207-3.s
+	@echo ... day08/0207-4.obj
+	@echo ... day08/0207-4.i
+	@echo ... day08/0207-4.s
+	@echo ... day08/0207.obj
+	@echo ... day08/0207.i
+	@echo ... day08/0207.s
 .PHONY : help
 
 
