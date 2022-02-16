@@ -869,6 +869,19 @@ first/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0214.dir\build.make CMakeFiles/0214.dir/build
 .PHONY : 0214/fast
 
+#=============================================================================
+# Target rules for targets named 0216
+
+# Build rule for target.
+0216: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 0216
+.PHONY : 0216
+
+# fast build rule for target.
+0216/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0216.dir\build.make CMakeFiles/0216.dir/build
+.PHONY : 0216/fast
+
 day01/first.obj: day01/first.c.obj
 .PHONY : day01/first.obj
 
@@ -2261,6 +2274,30 @@ day11/0214.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0214.dir\build.make CMakeFiles/0214.dir/day11/0214.c.s
 .PHONY : day11/0214.c.s
 
+day12/0216.obj: day12/0216.c.obj
+.PHONY : day12/0216.obj
+
+# target to build an object file
+day12/0216.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0216.dir\build.make CMakeFiles/0216.dir/day12/0216.c.obj
+.PHONY : day12/0216.c.obj
+
+day12/0216.i: day12/0216.c.i
+.PHONY : day12/0216.i
+
+# target to preprocess a source file
+day12/0216.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0216.dir\build.make CMakeFiles/0216.dir/day12/0216.c.i
+.PHONY : day12/0216.c.i
+
+day12/0216.s: day12/0216.c.s
+.PHONY : day12/0216.s
+
+# target to generate assembly for a file
+day12/0216.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\0216.dir\build.make CMakeFiles/0216.dir/day12/0216.c.s
+.PHONY : day12/0216.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2326,6 +2363,7 @@ help:
 	@echo ... 0209-5
 	@echo ... 0209-6
 	@echo ... 0214
+	@echo ... 0216
 	@echo ... first
 	@echo ... day01/first.obj
 	@echo ... day01/first.i
@@ -2501,6 +2539,9 @@ help:
 	@echo ... day11/0214.obj
 	@echo ... day11/0214.i
 	@echo ... day11/0214.s
+	@echo ... day12/0216.obj
+	@echo ... day12/0216.i
+	@echo ... day12/0216.s
 .PHONY : help
 
 
